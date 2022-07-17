@@ -4,7 +4,7 @@ import os
 class Config:
     API_ID = int(os.environ.get("16376800"))
     API_HASH = os.environ.get("506da3fde32cd6487709c5e2fd67cd43")
-    Token = os.environ.get("BOT_TOKEN")
+    Token = os.environ.get("5502789457:AAGTeio92053LZfVD_gquNQpL5zl_JiedpM")
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
